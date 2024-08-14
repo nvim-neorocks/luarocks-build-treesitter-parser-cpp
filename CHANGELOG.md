@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/nvim-neorocks/luarocks-build-treesitter-parser-cpp/compare/v1.0.0...v2.0.0) (2024-08-14)
+
+
+### ⚠ BREAKING CHANGES
+
+* separate build into C and C++ compilation per file ([#2](https://github.com/nvim-neorocks/luarocks-build-treesitter-parser-cpp/issues/2))
+
+### Bug Fixes
+
+* separate build into C and C++ compilation per file ([#2](https://github.com/nvim-neorocks/luarocks-build-treesitter-parser-cpp/issues/2)) ([0b52e87](https://github.com/nvim-neorocks/luarocks-build-treesitter-parser-cpp/commit/0b52e87a63b18cc4e4bf187a16ba181d2199a626))
+
 ## 1.0.0 (2024-08-09)
 
 
