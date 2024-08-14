@@ -13,10 +13,10 @@ jobs:
         with:
           ref: ${{ github.ref }}
 
-      # - name: Install C/C++ Compiler
-      #   uses: rlalik/setup-cpp-compiler@master
-      #   with:
-      #     compiler: clang-latest
+      - name: Install C/C++ Compiler
+        uses: rlalik/setup-cpp-compiler@master
+        with:
+          compiler: clang-latest
 
       - name: Install MSVC Compiler Toolchain
         uses: ilammy/msvc-dev-cmd@v1
@@ -39,7 +39,7 @@ jobs:
 
       - name: Install build dependencies
         run: |
-          luarocks --local --lua-version=5.1 make ./luarocks-build-treesitter-parser-scm-1.rockspec
+          luarocks --local --lua-version=5.1 make ./luarocks-build-treesitter-parser-cpp-scm-1.rockspec
 
       - name: Install tree-sitter parser
         run: |
@@ -47,7 +47,7 @@ jobs:
 
       - name: Pack and create manifest
         run: |
-          luarocks pack tree-sitter-haskell
+          luarocks pack tree-sitter-norg
           luarocks-admin make-manifest --lua-version=5.1 .
           dir
           type manifest-5.1

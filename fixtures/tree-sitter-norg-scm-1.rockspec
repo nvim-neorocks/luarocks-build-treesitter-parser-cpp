@@ -26,15 +26,4 @@ build = {
   type = "treesitter-parser-cpp",
   lang = "norg",
   sources = { "src/parser.c", "src/scanner.cc" },
-  platforms = {
-    macosx = {
-      libflags = {
-        "-bundle",
-        "-undefined",
-        "dynamic_lookup",
-        "-all_load",
-        "-std=c++11",
-      },
-    },
-  },
 }
