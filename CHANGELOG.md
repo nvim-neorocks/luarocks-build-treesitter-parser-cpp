@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.1](https://github.com/nvim-neorocks/luarocks-build-treesitter-parser-cpp/compare/v2.0.0...v2.0.1) (2024-08-19)
+
+
+### Bug Fixes
+
+* **darwin:** parsers installed with debug symbols ([#4](https://github.com/nvim-neorocks/luarocks-build-treesitter-parser-cpp/issues/4)) ([3d5a9e0](https://github.com/nvim-neorocks/luarocks-build-treesitter-parser-cpp/commit/3d5a9e0aec15610713fdfdfbd73b6bcb14320ec7))
+
 ## [2.0.0](https://github.com/nvim-neorocks/luarocks-build-treesitter-parser-cpp/compare/v1.0.0...v2.0.0) (2024-08-14)
 
 
