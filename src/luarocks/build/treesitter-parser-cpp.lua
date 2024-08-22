@@ -99,7 +99,7 @@ local function run(rockspec, no_install)
 	---@return string[] flags flags
 	local function get_cc(source)
 		if source:match("%.cc$") ~= nil or source:match("%.cpp$") ~= nil or source:match("%.cxx$") ~= nil then
-			return variables.CXX, variables.CXXFLAGS
+			return variables.CXX or variables.CC, variables.CXXFLAGS or variables.CFLAGS
 		else
 			return variables.CC, variables.CFLAGS
 		end
