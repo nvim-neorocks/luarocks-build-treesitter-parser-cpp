@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.2](https://github.com/nvim-neorocks/luarocks-build-treesitter-parser-cpp/compare/v2.0.1...v2.0.2) (2024-08-22)
+
+
+### Bug Fixes
+
+* fall back to CC and CFLAGS if CXX(FLAGS) are not set ([3f29c60](https://github.com/nvim-neorocks/luarocks-build-treesitter-parser-cpp/commit/3f29c60435fbd75ceaf377cbf05beb8a8fe8254b))
+
 ## [2.0.1](https://github.com/nvim-neorocks/luarocks-build-treesitter-parser-cpp/compare/v2.0.0...v2.0.1) (2024-08-19)
 
 
