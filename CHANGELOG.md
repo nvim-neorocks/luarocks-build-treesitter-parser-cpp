@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.3](https://github.com/nvim-neorocks/luarocks-build-treesitter-parser-cpp/compare/v2.0.2...v2.0.3) (2024-08-23)
+
+
+### Bug Fixes
+
+* compatibility with lua &gt; 5.1 ([80ecef4](https://github.com/nvim-neorocks/luarocks-build-treesitter-parser-cpp/commit/80ecef412c2595dac9a6ffb9f5bc188a238c5a6a))
+
 ## [2.0.2](https://github.com/nvim-neorocks/luarocks-build-treesitter-parser-cpp/compare/v2.0.1...v2.0.2) (2024-08-22)
 
 
