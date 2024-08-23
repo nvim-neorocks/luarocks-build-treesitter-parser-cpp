@@ -7,6 +7,7 @@ local cfg = require("luarocks.core.cfg")
 local deps = require("luarocks.deps")
 
 local treesitter_parser = {}
+local unpack = table.unpack or unpack
 
 ---@alias luarocks.ExternalDependency table
 
