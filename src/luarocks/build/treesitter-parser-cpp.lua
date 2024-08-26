@@ -459,7 +459,7 @@ function treesitter_parser.run(rockspec, no_install)
 		local dest = dir.path(path.install_dir(rockspec.name, rockspec.version), "parser")
 		fs.make_dir(dest)
 		for _, src in pairs(fs.list_dir(parser_dir)) do
-			if src:find("%.so$") ~= nil then
+			if src:find("%.so$") ~= nil or src:find("%.dll$") ~= nil then
 				fs.copy(dir.path(parser_dir, src), dest)
 			end
 		end
